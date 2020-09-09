@@ -1,18 +1,17 @@
 import React from 'react';
-
-import Stats from './component/Stats';
-import Cards from './component/Cards';
+import Check from './component/Check';
 
 
 function App() {
   return (
-  <>
-    <h1 className="container" style={{textAlign: "center"}}>GitHub-Compare</h1>
-    <input type="text" name="name" placeholder="enter account name"></input>
-    {/* <button onClick={onCompare}>Add</button> */}
+    <>
     
-    <Stats />
-    {/* <Cards /> */}
+      <nav class="navbar navbar-light bg-light">
+        <span class="navbar-brand mb-0 h1">GitHub Compare</span>
+      </nav>
+      <div className="container">
+      <Check />
+      </div>
     </>
   );
 }
