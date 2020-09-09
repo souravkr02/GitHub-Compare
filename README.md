@@ -1,3 +1,5 @@
+[Check out Live](https://souravkr02.github.io/GitHub-Compare)
+
 ## CRA (Create React App)
 
 Used CRA (create-react-app - https://github.com/facebook/create-react-app) to setup the project.
